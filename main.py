@@ -13,7 +13,6 @@ def characters_count(text):
             characters_count[character] += 1
         else:
             characters_count[character] = 1
-
     return characters_count
 
 def sort_on(dict):
